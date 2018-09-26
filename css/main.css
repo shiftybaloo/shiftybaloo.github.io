@@ -1,3 +1,16 @@
+@font-face {
+font-family: "Vanadine Bold";
+src: url("../fonts/vanadine_bold-webfont.woff");
+
+}
+
+@font-face {
+font-family: "Vanadine Regular";
+src: url("../fonts/vanadine_regular-webfont.woff");
+}
+
+
+
 img {
     height: auto;
     max-width: 100%;
@@ -6,15 +19,17 @@ img {
 body {
 	background-color: black;
 	font-family: "Vanadine Bold", monospace;
-	color: white;
+	color: #ededed;
 }
 a:link {
-	color: white;
+    font-size: 20;
+	color: #ededed;
 	text-decoration: none;
 }
 
 a:visited {
-	color: white;
+    font-size: 20;
+	color: #ededed;
 	text-decoration: none;
 }
 
@@ -28,28 +43,36 @@ a:active {
 }
 
 h1 {
-	color: white;
-	text-align: center;
+    font-size: 30;
+	color: #ededed;
+	vertical-align: bottom;
     font-family: "Vanadine Bold", monospace;
 }
 
-table, td {
+/*table, td {
     border-collapse: collapse;
-  /* border: 1px solid red; */
+
     text-align: left bottom;
-}
+}*/
 
 p {
-    color: white;
-  font-size: 12px;
-  position: relative;
-  margin: 0 auto;
+    color: #ededed;
+    font-size: 20px;
+    position: relative;
+    margin: 0 auto;
 }
 
 p1 {
-    color: white;
+    color: #ededed;
     font-size: 20px;
     position: relative;
     margin: 0 auto;
 
+}
+
+.border {
+    border-color: #232323;
+    border-style: solid;
+    border-width: 1px 1px 0px 0px;
+    
 }
