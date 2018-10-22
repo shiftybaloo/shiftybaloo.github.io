@@ -1,58 +1,126 @@
-<html>
-<head>
+<!--
+
+        ****************************************************
+        * Welcome to the travesty that is our source code. *
+        * Take anything you want, because odds are         *
+        * We stole it first.                               *
+        *                               -MagLi             *
+        ****************************************************
+
+
+        This is just v1.0. We'll be progressively updating and expanding
+        our web presence as time goes on. Stay tuned.
+
+-->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="An indie/rock/emo band from Chattanooga, TN." />
+    <meta name="keywords" content="band, magnificent lions, chattanooga, tennessee, rock, guitar, emo" />
+    <meta name="author" content="Hamilton Barber" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+
+   <!-- My CSS -->
+   <link rel="stylesheet" type = "text/css" href="css/main2.css">
+   
     <title>Magnificent Lions</title>
-<link rel = stylesheet type = "text/css" href = "css/main.css">
-<link rel = stylesheet type = "text/css" href = "css/nav.css">
-<link rel = stylesheet type = "text/css" href = "css/glitch.css">
-<script src = "js/main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
 
-<!--nav bar-->
-<div class = "nav">
-    <div class = "dropdown">
-        <div class = "dropbtn"><a href = "pages/about.html">BIO</a></div>
-    </div>
-    <div class = "dropdown">
-        <div class = "dropbtn"><a href = "pages/booking.html">BOOKING</a></div>
-    </div>   
-    <div class = "dropdown">
-        <div class = "dropbtn"><a href = "#">MUSIC</a></div>
-    </div>
-    <div class = "dropdown" >
-        <div class = "dropbtn"><a href = #>VISUAL MEDIA</a></div>
-            <div id = "myDropdown" class = "dropdown-content">
-                <a href = "pages/photos">PHOTOGRAPHS</a>
-                <a href = "pages/videos.html">MOTION PICTURES</a>
-            </div>
-    </div>
-    <div class = "dropdown">
-        <div class = "dropbtn"><a href = "#">MERCH</a></div>
-            <div class = "dropdown-content">
-                <p>COMING SOON</p>
-            </div>
-    </div>
+<!--Magli ftw-->
+<div class="text-center">
+<img src="photos/maglitop.png" class="img-fluid mx-auto" alt="magnificent lions">
 </div>
 
-<!--page content-->
-    
-<div class = "wrapper" width = 100%>
-    <div class = "column left" id = "shows">
-        <ul><h1>Engagements</h1>
-            <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Magnificent Lions" data-display-local-dates="false" data-display-past-dates="false" data-auto-style="true" data-text-color="#ededed" data-link-color="#2F95DE" data-popup-background-color="#FFFFFF" data-background-color="#21160B" data-display-limit="15" data-link-text-color="#ededed" data-widget-width="25%"></a>
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-muted">
+  <a class="navbar-brand" href="#">
+      <img src="photos/magli_icon.png" width="30" height="30" alt="Magnificent Lions">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        </ul>
+<!--NavBar Content -->
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="tour-tab" data-toggle="tab" href="#tour" role="tab" aria-controls="tour" aria-selected="true">Engagements</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" id="bio-tab" data-toggle="tab" href="#bio" role="tab" aria-controls="bio" aria-selected="false">Bio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="booking-tab" data-toggle="tab" href="#booking" role="tab" aria-controls="booking" aria-selected="false">Booking</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="photos.html" target="_blank">Photographs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" id="merch-tab" data-toggle="tab" href="#merch" role="tab" aria-controls="merch" aria-selected="false">Merch</a>
+        </li>
+    </ul>
+
+
+
+  </div>
+</nav>
+<!--Page Content-->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tour" role="tabpanel" aria-labelledby="tour-tab">
+            
+                <!--Tour content here-->
+<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Magnificent Lions" data-display-local-dates="false" data-display-past-dates="false" data-auto-style="false" data-text-color="#ededed" data-link-color="#00b4b3" data-popup-background-color="#FFFFFF" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-link-text-color="#FFFFFF" data-display-lineup="false" data-separator-color=""></a>
+
+        </div>
+        <div class="tab-pane fade" id="bio" role="tabpanel" aria-labelledby="bio-tab">
+            
+                <!--Bio content here-->Bio
+
+        </div>
+        <div class="tab-pane fade" id="booking" role="tabpanel" aria-labelledby="booking-tab">
+            
+                <!--Booking content here-->
+
+<div class="container">
+    <div class="row text-center">
+        <div class="col">
+            <h2>Tyler Bradford</h2>
+      <p>(423)443-0484</p><a href="mailto:magnificentlions@gmail.com">magnificentlions@gmail.com</a>
+        </div>
     </div>
-    <div class = "column middle">
-        <img src = "photos/magli_transparent.png" style = "opacity: .6">
-    </div>
-    <div class = "column right">
-        <h1>News</h1>
-        <p></p>
-    </div>
+  
 </div>
-<div>
-    
-</div>
+
+        </div>
+
+        <div class="tab-pane fade" id="merch" role="tabpanel" aria-labelledby="merch-tab">
+            
+                <!--Merch content here-->Merch
+
+        </div>
+    </div>
+
+   
+   
+   
+   
+   
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 
+
 </body>
+
 </html>

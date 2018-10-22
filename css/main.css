@@ -1,3 +1,4 @@
+/*
 @font-face {
 font-family: "Vanadine Bold";
 src: url("../fonts/vanadine_bold-webfont.woff");
@@ -8,6 +9,7 @@ src: url("../fonts/vanadine_bold-webfont.woff");
 font-family: "Vanadine Regular";
 src: url("../fonts/vanadine_regular-webfont.woff");
 }
+*/
 
 ul {
     list-style: none;
@@ -22,15 +24,33 @@ img {
     max-width: 100%;
 }
 
+
+.pagewrap { 
+    /* The image used */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 html, body {
-    min-height: 100%;
+    height: 100%;
 }
 
 body {
-	background-color: black;
-	font-family: "Vanadine Bold", monospace;
-	color: #ededed;
-    background-image: linear-gradient(#18110A, #36210C, black);
+    /* The image used */
+    background-image: url("../photos/maglitrailsbg.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -59,7 +79,7 @@ h1 {
     font-size: 20;
 	color: #ededed;
 	vertical-align: bottom;
-    font-family: "Vanadine Bold", monospace;
+
 }
 
 /*table, td {
@@ -119,6 +139,9 @@ p1 {
     clear: both;
 }
 
+.jumbotron {
+    background-color: #18110A; 
+}
 
 .navbar-inverse { background-color: #18110A}
 .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #291D11}
