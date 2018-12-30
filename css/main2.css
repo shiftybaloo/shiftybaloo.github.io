@@ -1,4 +1,7 @@
 
+h1, h2, h3, h4 {
+    font-family: "Courier New", courier, monospace;
+}
 body{
     background: black;
     max-width: 100%;
@@ -6,6 +9,7 @@ body{
 }
 
 a:link {
+    font-family: "Courier New", courier, monospace;
     font-size: 16;
 	color: #ededed;
 	text-decoration: none;
@@ -23,6 +27,7 @@ a:hover {
 }
 
 p {
+    font-family: "Courier New", courier, monospace;
     color: #ededed;
     font-size: 12px;
     position: relative;
