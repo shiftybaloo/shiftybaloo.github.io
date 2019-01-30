@@ -44,3 +44,19 @@ p {
         min-height: 300px;
 }
 
+.blog {
+    background-image: linear-gradient(#18110A, #36210C, black);
+    min-height: 100px;
+}
+
+.blogWrap {
+    margin: auto;
+    width: 83%;
+    min-height: 300px;
+    background-color: rgba(211,211,211,0.3);
+    
+}
+
+.entries {
+    
+}
